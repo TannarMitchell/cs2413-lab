@@ -1,7 +1,15 @@
 #include "two_sum.h"
 
 int two_sum(const int* nums, int n, int target, int* out_i, int* out_j) {
-
+	for(int i=0; i<=n-1; i++){
+		for(int j=0; j<=n-1 ;j++){
+			if((nums[i] + nums[j] == target) && (i != j)){
+			*out_i = i;
+			*out_j = j;
+			return 1;
+			}
+		}
+	}
     // TODO: implement Two Sum.
     // Requirements:
     //  - find i < j such that nums[i] + nums[j] == target
