@@ -1,0 +1,18 @@
+# Visual Studio / VS Code
+.vs/
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Build outputs
+*.o
+*.out
+*.exe
+main
+lab00_demo
+Key.txt
+Key.txt.pub
